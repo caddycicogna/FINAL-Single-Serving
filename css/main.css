@@ -1,0 +1,171 @@
+html {
+  font: 100%/1.15 sans-serif;
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+  }
+  
+
+body {
+  color: #333;
+  background-color: #CCC;
+  margin: 0;
+  }
+  
+ 
+/* - - - figures - - - */
+
+figure {
+  padding: 0;
+	margin: 0;
+	}
+	
+figure.artwork {
+  padding: 0;
+	margin: 0;
+	}
+	
+	figcaption.credit {
+	text-align: right;
+	}
+	
+	
+/* - - - overlay text- - - */	
+
+#hero-banner {
+  position: relative;
+}
+  
+#banner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 75%;
+  height: 8em;
+  font-size: 110%;
+  text-align: center;
+  background: #FFF;
+  background: rgba(255, 255, 255, .8);
+  padding: .5em;
+  border-radius: .5em;
+  margin: auto;
+}
+
+
+  
+  
+
+/* - - - flexible images - - - */
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+	}
+	
+	/* - - - about me - - - */
+#bio {
+  background: #FFF;
+  padding: 5%;
+  background: rgba(255, 255, 255, .8);
+  }
+  
+	
+#bio header {
+  text-align: center;
+  }
+  
+#bio .text p {
+  line-height: 1.6em;
+  }
+	
+	/* - - - portrait of self image - - - */	
+	
+	figure.headshot {
+	width: 10em;
+	height: 10em;
+	border: .5em solid #CCC;
+	border-radius: 50%;
+	margin: 1em auto;
+	overflow: hidden;
+	}
+	
+/* descendent selector */
+
+figure.headshot img {
+	max-width: 105%;
+	margin-left: -5%;
+	}
+	
+
+	/* - - - footer - - - */
+	
+#contactinformation {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  line-height: -2em;
+  }
+	
+img[src="img/facebook.svg"] {
+  width: 2em;
+	height: 2em;
+	margin: 0em 2em 1em 0;
+}
+	
+img[src="img/instagram.svg"] {
+  width: 2em;
+	height: 2em;
+	margin: 0em 0em 1em 0;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* --- wider screen breakpoints --- */
+
+
+@media (min-width: 20em) {
+
+  #banner {
+    font-size: 85%;
+    }
+
+  }
+
+
+@media (min-width: 48em) {
+
+  #banner {
+    font-size: 125%;
+    }
+  #bio .headshot {
+  float: left;
+  margin-top: 2.5em; 
+    }  
+  #bio .text {
+  margin-left: 12em;
+    } 
+}
+
+@media (min-width: 60em) {
+
+  #banner {
+    font-size: 200%;
+    }
+  }
+
+
+
+
+
+
+}
